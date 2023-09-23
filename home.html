@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Books</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .book-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .book-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .book-title {
+            font-weight: bold;
+            margin: 10px 0;
+        }
+
+        .book-author {
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Library</h1>
+        <h2>Book Collection</h2>
+        <div class="book-grid">
+            <div class="book-card">
+                <img src="dark.jpg" alt="Book 1" class="book-image">
+                <p class="book-title">Book 1</p>
+                <p class="book-author">Author 1</p>
+            </div>
+            <div class="book-card">
+                <img src="analyze.jpg" alt="Book 2" class="book-image">
+                <p class="book-title">Book 2</p>
+                <p class="book-author">Author 2</p>
+            </div>
+            <!-- Add more book cards as needed -->
+        </div>
+    </div>
+</body>
+</html>
